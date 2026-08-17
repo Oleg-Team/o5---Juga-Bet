@@ -11,6 +11,14 @@ final class AdsManager: NSObject, ObservableObject {
     static let interstitialPlacement = "Interstitial_iOS"
     static let bannerPlacement = "Banner_iOS"
 
+    static var isTestMode: Bool {
+        #if DEBUG
+        true
+        #else
+        false
+        #endif
+    }
+
     @Published var isInitialized = false
     @Published var rewardedReady = false
     @Published var interstitialReady = false
@@ -42,9 +50,10 @@ final class AdsManager: NSObject, ObservableObject {
 
     private func initializeSDK() {
         let config = UADSInitializationConfigurationBuilder(gameId: Self.gameID)
-            .with(testMode: false)
+            .with(testMode: Self.isTestMode)
             .build()
 
+        print("Unity Ads initializing, testMode=\(Self.isTestMode)")
         UnityAds.initialize(config) { [weak self] error in
             DispatchQueue.main.async {
                 if let error {
@@ -231,7 +240,22 @@ private final class InterstitialShowProxy: NSObject, UADSInterstitialShowDelegat
     }
 }
 
-struct BannerAdView: UIViewRepresentable {
+struct BannerAdView: View {
+    @ObservedObject private var ads = AdsManager.shared
+
+    var body: some View {
+        Group {
+            if ads.isInitialized {
+                UnityBannerRepresentable()
+            } else {
+                Color.clear
+            }
+        }
+        .frame(width: 320, height: 50)
+    }
+}
+
+private struct UnityBannerRepresentable: UIViewRepresentable {
     func makeCoordinator() -> Coordinator {
         Coordinator()
     }

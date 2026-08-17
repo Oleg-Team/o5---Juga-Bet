@@ -6,54 +6,59 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		29AFF3743033475400F4C7A3 /* UnityAds in Frameworks */ = {isa = PBXBuildFile; productRef = B7E11A01A0B0C0D0E0F00010 /* UnityAds */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		298A688A30332526008367E9 /* Truth or Dare: Jaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truth or Dare: Jaga.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E11A01A0B0C0D0E0F00005 /* Truth or Dare Jango Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Truth or Dare Jango Sport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		298A688C30332526008367E9 /* Truth or Dare: Jaga */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				298A689830332527008367E9 /* Exceptions for "Truth or Dare: Jaga" folder in "Truth or Dare: Jaga" target */,
-			);
-			path = "Truth or Dare: Jaga";
-			sourceTree = "<group>";
-		};
-
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		298A689830332527008367E9 /* Exceptions for "Truth or Dare: Jaga" folder in "Truth or Dare: Jaga" target */ = {
+		B7E11A01A0B0C0D0E0F00012 /* Exceptions for "Truth or Dare Jango Sport" folder in "Truth or Dare Jango Sport" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 298A688930332526008367E9 /* Truth or Dare: Jaga */;
+			target = B7E11A01A0B0C0D0E0F00006 /* Truth or Dare Jango Sport */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B7E11A01A0B0C0D0E0F00003 /* Truth or Dare Jango Sport */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B7E11A01A0B0C0D0E0F00012 /* Exceptions for "Truth or Dare Jango Sport" folder in "Truth or Dare Jango Sport" target */,
+			);
+			path = "Truth or Dare Jango Sport";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		298A688730332526008367E9 /* Frameworks */ = {
+		B7E11A01A0B0C0D0E0F00008 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29AFF3743033475400F4C7A3 /* UnityAds in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		298A688130332526008367E9 = {
+		B7E11A01A0B0C0D0E0F00002 = {
 			isa = PBXGroup;
 			children = (
-				298A688C30332526008367E9 /* Truth or Dare: Jaga */,
-				298A688B30332526008367E9 /* Products */,
+				B7E11A01A0B0C0D0E0F00003 /* Truth or Dare Jango Sport */,
+				B7E11A01A0B0C0D0E0F00004 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		298A688B30332526008367E9 /* Products */ = {
+		B7E11A01A0B0C0D0E0F00004 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				298A688A30332526008367E9 /* Truth or Dare: Jaga.app */,
+				B7E11A01A0B0C0D0E0F00005 /* Truth or Dare Jango Sport.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,68 +66,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		298A688930332526008367E9 /* Truth or Dare: Jaga */ = {
+		B7E11A01A0B0C0D0E0F00006 /* Truth or Dare Jango Sport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 298A689530332527008367E9 /* Build configuration list for PBXNativeTarget "Truth or Dare: Jaga" */;
+			buildConfigurationList = B7E11A01A0B0C0D0E0F0000F /* Build configuration list for PBXNativeTarget "Truth or Dare Jango Sport" */;
 			buildPhases = (
-				298A688630332526008367E9 /* Sources */,
-				298A688730332526008367E9 /* Frameworks */,
-				298A688830332526008367E9 /* Resources */,
+				B7E11A01A0B0C0D0E0F00007 /* Sources */,
+				B7E11A01A0B0C0D0E0F00008 /* Frameworks */,
+				B7E11A01A0B0C0D0E0F00009 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				298A688C30332526008367E9 /* Truth or Dare: Jaga */,
+				B7E11A01A0B0C0D0E0F00003 /* Truth or Dare Jango Sport */,
 			);
-			name = "Truth or Dare: Jaga";
+			name = "Truth or Dare Jango Sport";
 			packageProductDependencies = (
-				298A689A30332527008367E9 /* UnityAds */,
+				B7E11A01A0B0C0D0E0F00010 /* UnityAds */,
 			);
-			productName = "Truth or Dare: Jaga";
-			productReference = 298A688A30332526008367E9 /* Truth or Dare: Jaga.app */;
+			productName = "Truth or Dare Jango Sport";
+			productReference = B7E11A01A0B0C0D0E0F00005 /* Truth or Dare Jango Sport.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		298A688230332526008367E9 /* Project object */ = {
+		B7E11A01A0B0C0D0E0F00001 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					298A688930332526008367E9 = {
+					B7E11A01A0B0C0D0E0F00006 = {
 						CreatedOnToolsVersion = 26.2;
 					};
 				};
 			};
-			buildConfigurationList = 298A688530332526008367E9 /* Build configuration list for PBXProject "Truth or Dare: Jaga" */;
+			buildConfigurationList = B7E11A01A0B0C0D0E0F0000E /* Build configuration list for PBXProject "Truth or Dare Jango Sport" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 298A688130332526008367E9;
+			mainGroup = B7E11A01A0B0C0D0E0F00002;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				298A689930332527008367E9 /* XCRemoteSwiftPackageReference "Unity-Ads-Swift-Package" */,
+				B7E11A01A0B0C0D0E0F00011 /* XCRemoteSwiftPackageReference "Unity-Ads-Swift-Package" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 298A688B30332526008367E9 /* Products */;
+			productRefGroup = B7E11A01A0B0C0D0E0F00004 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				298A688930332526008367E9 /* Truth or Dare: Jaga */,
+				B7E11A01A0B0C0D0E0F00006 /* Truth or Dare Jango Sport */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		298A688830332526008367E9 /* Resources */ = {
+		B7E11A01A0B0C0D0E0F00009 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,7 +137,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		298A688630332526008367E9 /* Sources */ = {
+		B7E11A01A0B0C0D0E0F00007 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -142,7 +147,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		298A689330332527008367E9 /* Debug */ = {
+		B7E11A01A0B0C0D0E0F0000A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +210,7 @@
 			};
 			name = Debug;
 		};
-		298A689430332527008367E9 /* Release */ = {
+		B7E11A01A0B0C0D0E0F0000B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,25 +266,27 @@
 			};
 			name = Release;
 		};
-		298A689630332527008367E9 /* Debug */ = {
+		B7E11A01A0B0C0D0E0F0000C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Truth or Dare: Jaga/Info.plist";
+				INFOPLIST_FILE = "Truth or Dare Jango Sport/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Truth or Dare: Jango sport";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This allows us to show relevant ads that keep Truth or Dare: Jango sport free to play.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -288,34 +295,37 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.truordarejangosp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		298A689730332527008367E9 /* Release */ = {
+		B7E11A01A0B0C0D0E0F0000D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Truth or Dare: Jaga/Info.plist";
+				INFOPLIST_FILE = "Truth or Dare Jango Sport/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Truth or Dare: Jango sport";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This allows us to show relevant ads that keep Truth or Dare: Jango sport free to play.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,32 +334,33 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.truordarejangosp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		298A688530332526008367E9 /* Build configuration list for PBXProject "Truth or Dare: Jaga" */ = {
+		B7E11A01A0B0C0D0E0F0000E /* Build configuration list for PBXProject "Truth or Dare Jango Sport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				298A689330332527008367E9 /* Debug */,
-				298A689430332527008367E9 /* Release */,
+				B7E11A01A0B0C0D0E0F0000A /* Debug */,
+				B7E11A01A0B0C0D0E0F0000B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		298A689530332527008367E9 /* Build configuration list for PBXNativeTarget "Truth or Dare: Jaga" */ = {
+		B7E11A01A0B0C0D0E0F0000F /* Build configuration list for PBXNativeTarget "Truth or Dare Jango Sport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				298A689630332527008367E9 /* Debug */,
-				298A689730332527008367E9 /* Release */,
+				B7E11A01A0B0C0D0E0F0000C /* Debug */,
+				B7E11A01A0B0C0D0E0F0000D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -357,7 +368,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		298A689930332527008367E9 /* XCRemoteSwiftPackageReference "Unity-Ads-Swift-Package" */ = {
+		B7E11A01A0B0C0D0E0F00011 /* XCRemoteSwiftPackageReference "Unity-Ads-Swift-Package" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package";
 			requirement = {
@@ -368,12 +379,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		298A689A30332527008367E9 /* UnityAds */ = {
+		B7E11A01A0B0C0D0E0F00010 /* UnityAds */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 298A689930332527008367E9 /* XCRemoteSwiftPackageReference "Unity-Ads-Swift-Package" */;
+			package = B7E11A01A0B0C0D0E0F00011 /* XCRemoteSwiftPackageReference "Unity-Ads-Swift-Package" */;
 			productName = UnityAds;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 298A688230332526008367E9 /* Project object */;
+	rootObject = B7E11A01A0B0C0D0E0F00001 /* Project object */;
 }

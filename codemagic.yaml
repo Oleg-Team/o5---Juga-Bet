@@ -1,0 +1,43 @@
+workflows:
+    ios-workflow:
+      name: iOS Workflow
+      environment:
+        xcode: 26.0
+        
+        ios_signing:
+            distribution_type: app_store
+            bundle_identifier: com.truordarejangosp
+            
+        groups:
+            - DEFAULT
+        vars:
+          BUNDLE_ID: "com.truordarejangosp"
+          XCODE_WORK: "Truth or Dare Jango Sport.xcodeproj"
+          XCODE_SCHEME: "Truth or Dare Jango Sport"
+          
+      scripts:
+        - name: Set up provisioning profiles settings on Xcode project
+          script: xcode-project use-profiles
+          
+        - name: Build ipa for distribution
+          script: |
+            xcode-project build-ipa \
+              --project "$CM_BUILD_DIR/$XCODE_WORK" \
+              --scheme "$XCODE_SCHEME" \
+              --verbose
+    
+      artifacts:
+        - ios_distribution.key
+        - ios_distribution.csr
+        - build/ios/ipa/*.ipa
+        - /tmp/xcodebuild_logs/*.log
+        - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+        - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+      publishing:
+        app_store_connect:
+            api_key: $APP_STORE_CONNECT_PRIVATE_KEY
+            key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+            issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+            submit_to_testflight: true
+            expire_build_submitted_for_review: true
+            submit_to_app_store: false

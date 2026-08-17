@@ -40,6 +40,8 @@ struct GameView: View {
                         .buttonStyle(GlowButtonStyle())
                     }
                     .padding(.horizontal, 20)
+
+                    Spacer(minLength: 8)
                 } else {
                     Spacer()
                     choiceBoard
