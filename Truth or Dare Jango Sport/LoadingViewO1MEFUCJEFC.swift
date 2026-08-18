@@ -19,7 +19,7 @@ struct LoadingViewO1MEFUCJEFC: View {
             guard urlString == "error" else { return }
             closeLoading()
         }
-        .onChange(of: urlString) { _, newValue in
+        .onChange(of: urlString) { newValue in
             guard newValue == "error" else { return }
             closeLoading()
         }
